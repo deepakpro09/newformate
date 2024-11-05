@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stock Market Landing Page for real-time trading, analysis, and investment">
+    <title>Stock Market Insights</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        header {
+            background-color: #2e3b4e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards 0.5s;
+        }
+        .hero {
+            background: #3c91e6;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards 1s;
+        }
+        .cta-button {
+            background-color: #ff5722;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards 1.4s;
+        }
+        .cta-button:hover {
+            background-color: #e64a19;
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .big-button {
+            background-color: #00bcd4;
+            color: white;
+            padding: 20px 50px;
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            margin-top: 50px;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards 2s;
+        }
+        .big-button:hover {
+            background-color: #0097a7;
+            transform: scale(1.1);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #fff;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards 2.5s;
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: slideInUp 1s forwards 2.7s;
+        }
+        .footer {
+            background-color: #2e3b4e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards 3s;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Stock Market Insights</h1>
+        <p>Get real-time data, analysis, and trading insights to make smarter investment decisions.</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to the Future of Stock Trading</h1>
+        <p>Access live market data, actionable insights, and expert analysis to trade smarter.</p>
+        <a href="#cta" class="cta-button">Start Trading Today</a>
+    </section>
+
+    <!-- Big Button Section - JOIN OUR CHANNEL -->
+    <a href="https://your-link-here.com" class="big-button" target="_blank">
+        JOIN OUR CHANNEL FOR FREE
+    </a>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <h3>Live Market Data</h3>
+            <p>Stay up-to-date with real-time stock quotes, indices, and financial news.</p>
+        </div>
+        <div class="feature">
+            <h3>Expert Analysis</h3>
+            <p>Get expert-driven market insights to make informed trading decisions.</p>
+        </div>
+        <div class="feature">
+            <h3>Trading Tools</h3>
+            <p>Advanced charting, technical analysis, and custom alerts at your fingertips.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Stock Market Insights. All Rights Reserved. | <a href="#" style="color: white;">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>

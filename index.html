@@ -9,188 +9,88 @@
     <link rel="stylesheet" href="./Assets/Ss.css">
     <!-- Meta Pixel Code -->
     <script>
-        !function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t, s)
-        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '308332661723642');
         fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=308332661723642&ev=PageView&noscript=1" /></noscript>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=308332661723642&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
-
-    <style>
-        /* Global Styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-            position: relative;
-            overflow-x: hidden;
-        }
-
-        /* Fullscreen Background Image */
-        .background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('https://your-image-url.com') no-repeat center center fixed;
-            background-size: cover;
-            z-index: -1;
-            opacity: 0.6;
-        }
-
-        /* Container */
-        .container {
-            position: relative;
-            z-index: 1;
-            width: 100%;
-            max-width: 1200px;
-            padding: 20px;
-            margin: 0 auto;
-        }
-
-        /* Header Section */
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 40px;
-        }
-
-        .logo {
-            max-width: 150px;
-        }
-
-        .texts {
-            text-align: left;
-        }
-
-        .big {
-            font-size: 36px;
-            color: #fff;
-        }
-
-        .small {
-            font-size: 24px;
-            color: #fff;
-        }
-
-        .counter {
-            color: #00bcd4;
-            font-weight: bold;
-        }
-
-        /* Features Section */
-        .features {
-            background-color: rgba(0, 0, 0, 0.6);
-            color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 40px;
-        }
-
-        .title {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            font-size: 18px;
-            margin: 10px 0;
-        }
-
-        /* Button */
-        .special_btn button {
-            background-color: #00bcd4;
-            color: white;
-            padding: 15px 40px;
-            border: none;
-            font-size: 24px;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: transform 0.3s ease, background-color 0.3s ease;
-        }
-
-        .special_btn button:hover {
-            background-color: #0097a7;
-            transform: scale(1.1);
-        }
-
-        /* Last Description */
-        .last-dec {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 30px;
-            color: white;
-        }
-
-        /* AOS Animations */
-        [data-aos] {
-            opacity: 0;
-        }
-
-        /* Responsive Design */
-        @media screen and (max-width: 768px) {
-            .header {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .texts {
-                margin-top: 20px;
-            }
-
-            .special_btn button {
-                padding: 12px 30px;
-                font-size: 18px;
-            }
-        }
-    </style>
-
 </head>
 
-<body>
-
-    <div class="background"></div>
+<body style="background: url('https://your-image-url.com') no-repeat center center fixed; background-size: cover;">
 
     <div class="container">
         <div class="header">
-            <img class="logo" src="./Assets/channel-logo.jpg" alt="Channel Logo">
+            <img class="logo" src="./Assets/channel-logo.jpg" alt="!logo">
             <div class="texts">
-                <p class="big" data-aos="zoom-in" data-aos-duration="1000"><strong>Nifty and Banknifty Call</strong><br><span>(SEBI Registered)</span></p>
+                <p class="big" data-aos="zoom-in" data-aos-duration="1000"><strong>Nifty and Banknifty
+                        Call</strong><br><span>(SEBI Registered)</span></p>
                 <p class="small"><span class="counter">115</span>K+ Subscribers</p>
             </div>
         </div>
-
         <div class="features">
-            <p class="title" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Features</p>
+            <p class="title" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">Feature<span>s</span></p>
             <ul>
-                <li data-aos="fade-ri
+                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">🥇 SEBI Registered Research
+                    Analyst</li>
+                <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">📈 Get Nifty,Banknifty Level
+                    Update With Proper Analysis</li>
+                <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">🎯 Proper Updates With Charts
+                    During Market</li>
+                <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">👇 For More Updates CLICK ON BELOW
+                    BUTTON</li>
+            </ul>
+        </div>
+        <a class="special_btn" href="https://telegram.me/+6XyZN5RLAT4zNzY1" target="_blank"><button
+                onclick="customEvent()"><box-icon name='telegram' type='logo' color='#ffffff'></box-icon>Join
+                Telegra<span>m</span></button></a>
+
+        <p class="last-dec">📊 INDIA'S BEST TELEGRAM CHANNEL FOR STOCK MARKE<span>T</span> 📊</p>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script>
+        function customEvent() {
+            fbq('track', 'Subscribe');
+        }
+    </script>
+    <script src="https://nexpace.in/OtherLibs/NumberCounter.js"></script>
+    <script>
+        const counterUp = window.counterUp.default
+
+        const callback = entries => {
+            entries.forEach(entry => {
+                const el = entry.target
+                if (entry.isIntersecting && !el.classList.contains('is-visible')) {
+                    counterUp(el, {
+                        duration: 2000,
+                        delay: 20,
+                    })
+                    el.classList.add('is-visible')
+                }
+            })
+        }
+
+        const IO = new IntersectionObserver(callback, { threshold: 1 })
+
+        const el = document.querySelector('.counter')
+        IO.observe(el)
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
